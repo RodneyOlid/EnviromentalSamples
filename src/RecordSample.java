@@ -7,7 +7,8 @@ public class RecordSample {
         sample1.month = 2;
         sample1.day = 7;
         sample1.year = 2023;
-
         System.out.println(sample1.temperature);
+        EnviroSamples sample2 = new EnviroSamples("Water", "Baltimore Harbor", 62.3, 2, 5, 2023);
+        System.out.println(sample2.location);
     }
 }

@@ -7,5 +7,13 @@ public class EnviroSamples {
     public EnviroSamples(){
 
     }
+    public EnviroSamples(String myType, String myLocation, double myTemp, int myMonth, int myDay, int myYear){
+        this.sampleType = myType;
+        this.location = myLocation;
+        this.temperature = myTemp;
+        this.month = myMonth;
+        this.day = myDay;
+        this.year = myYear;
+    }
 
 }
