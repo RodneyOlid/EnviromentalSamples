@@ -6,7 +6,6 @@ public class EnviroSamples {
     public String date;
     public static int amount = 0;
     public EnviroSamples(){
-
     }
     public EnviroSamples(String myLocation, int myMonth, int myDay, int myYear){
         this.location = myLocation;
@@ -17,11 +16,15 @@ public class EnviroSamples {
         amount++;
     }
     public String getLocation() {
-        return location;
+        return this.location;
     }
 
     public void setLocation(String myLocation) {
         this.location = myLocation;
+    }
+
+    public void printMe(){
+        System.out.println("Environmental Sample");
     }
 
     @Override
@@ -31,7 +34,7 @@ public class EnviroSamples {
 
 }
 class Rock extends EnviroSamples{
-    String rockType, rockName, rockColor;
+    public String rockType, rockName, rockColor;
     public Rock(){
         super();
     }
@@ -41,10 +44,14 @@ class Rock extends EnviroSamples{
         this.rockName = myName;
         this.rockColor = myColor;
     }
+    public void printMe(){
+        System.out.println("Rock Sample");
+    }
+
 }
 class Water extends EnviroSamples{
-    double waterTemp;
-    String waterSource;
+    public double waterTemp;
+    public String waterSource;
     public Water(){
         super();
     }
@@ -53,10 +60,13 @@ class Water extends EnviroSamples{
         waterTemp = myTemp;
         waterSource = mySource;
     }
+    public void printMe(){
+        System.out.println("Water Sample");
+    }
 }
 class Soil extends EnviroSamples{
-    String soilType, soilColor;
-    double soilWeight;
+    public String soilType, soilColor;
+    public double soilWeight;
     public Soil(){
         super();
     }
@@ -65,5 +75,8 @@ class Soil extends EnviroSamples{
         soilType = myType;
         soilColor = myColor;
         soilWeight = myWeight;
+    }
+    public void printMe(){
+        System.out.println("Soil Sample");
     }
 }
