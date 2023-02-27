@@ -11,7 +11,11 @@ class Soil extends EnviroSamples{
         soilColor = myColor;
         soilWeight = myWeight;
     }
-    public void printMe(){
+    public void printInfo(){
         System.out.println("Soil Sample");
+        System.out.println("Location: " + this.getLocation());
+        System.out.println("Date collected: " + this.date);
+        System.out.println("Type and color: " + this.soilType + " " + this.soilColor);
+        System.out.println("Soil Weight: " + this.soilWeight + "grams");
     }
 }

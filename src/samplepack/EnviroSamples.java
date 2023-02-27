@@ -12,7 +12,7 @@ public class EnviroSamples {
         this.month = myMonth;
         this.day = myDay;
         this.year = myYear;
-        date = myMonth + "/" + myDay + "/" + myYear;
+        this.date = myMonth + "/" + myDay + "/" + myYear;
         amount++;
     }
     public String getLocation() {
@@ -23,8 +23,10 @@ public class EnviroSamples {
         this.location = myLocation;
     }
 
-    public void printMe(){
-        System.out.println("Environmental Sample");
+    public void printInfo(){
+        System.out.println("Environmental Sample: ");
+        System.out.println("Location " + getLocation());
+        System.out.println("Date: " + this.date);
     }
 
     @Override

@@ -11,8 +11,12 @@ class Rock extends EnviroSamples {
         this.rockName = myName;
         this.rockColor = myColor;
     }
-    public void printMe(){
-        System.out.println("Rock Sample");
+    public void printInfo(){
+        System.out.println("Rock Sample: ");
+        System.out.println("Location: " + this.getLocation());
+        System.out.println("Date collected: " + this.date);
+        System.out.println("Type and color: " + this.rockType + " " + this.rockColor);
+        System.out.println("Rock name: " + this.rockName);
     }
 
 }

@@ -11,7 +11,11 @@ class Water extends EnviroSamples{
         waterTemp = myTemp;
         waterSource = mySource;
     }
-    public void printMe(){
+    public void printInfo(){
         System.out.println("Water Sample");
+        System.out.println("Location: " + this.getLocation());
+        System.out.println("Date collected: " + this.date);
+        System.out.println("Water Source " + this.waterSource);
+        System.out.println("Water Temperature: " + this.waterTemp);
     }
 }
