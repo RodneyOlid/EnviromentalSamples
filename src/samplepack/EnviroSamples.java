@@ -6,6 +6,7 @@ public class EnviroSamples {
     public String date;
     public static int amount = 0;
     public EnviroSamples(){
+        amount++;
     }
     public EnviroSamples(String myLocation, int myMonth, int myDay, int myYear){
         this.location = myLocation;

@@ -5,9 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/samplepack/EnviroSamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/samplepack/EnviroSamples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/samplepack/RecordSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/samplepack/RecordSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/samplepack/Rock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/samplepack/Rock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/samplepack/Soil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/samplepack/Soil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/samplepack/Water.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/samplepack/Water.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,14 +67,7 @@
       <option name="project" value="LOCAL" />
       <updated>1676394848639</updated>
     </task>
-    <task id="LOCAL-00004" summary="sub classes for water, rock and soil">
-      <created>1677515105917</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1677515105917</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
